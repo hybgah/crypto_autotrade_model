@@ -100,7 +100,8 @@ def buy_and_sell(arr):
     gradient1 = arr[0]
     gradient2 = arr[1]
     gradient3 = arr[2]
-    if gradient1 > 1:
+    #비트코인 수수료 0.0009 포함
+    if gradient1 > 1.0009:
         print("매수")
         #잔고를 받아옴
         krw = get_balance("KRW")
@@ -109,8 +110,8 @@ def buy_and_sell(arr):
         if krw > 5000:
             #현재 잔고의 99.95%만큼 매수
             upbit.buy_market_order("KRW-BTC", krw*0.9995)
-        if gradient2 > 1:
-            if gradient3 > 1:
+        if gradient2 > 1.0009:
+            if gradient3 > 1.0009:
                 if btc > 0.00008:
                     print("30분 뒤에 매도")
                     time.sleep(1800)
