@@ -10,5 +10,4 @@ Python의 Upbit API를 활용한 가상화폐 자동거래 프로그램입니다
 인공지능 모델은 Facebook의 Prophet을 사용했습니다.<br>
 (참고:https://facebook.github.io/prophet/)
 
-시연영상
-
+시연영상은 issues에 있습니다. 아쉽게도 전 고점을 돌파하고 조정기간에 매수하는 동작을 녹화하지는 못했으나 Upbit API를 통해 암호화폐의 가격,200분 동안의 최고가,현재 사용자의 잔고를 불러오는 기능은 작 잘동합니다.
