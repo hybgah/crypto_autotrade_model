@@ -1,1 +1,1 @@
-# BitcoinAutoTrade
+# Cryptocurrency Autotrade Model
